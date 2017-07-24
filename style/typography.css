@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+}
+
+
+
+/*Home*/
+
+div nav ul li{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.125em;
+}
+
+div.personal_right h5{
+	font-family:"华文行楷" , sans-serif;
+	font-size:1em;
+}
+
+div.call h5{
+	font-family:"华文行楷" , sans-serif;
+	font-size:1em;
+}
+
+div.homeFoot_log1 h3{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	text-align:left;
+}
+
+div.homeFoot_log2 h3{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	text-align:left;
+}
+
+div.homeFoot_log1 p{
+	font-family:"Courier New", Courier, monospace;
+	font-size:0.875em;
+	text-align:left;
+}
+
+div.homeFoot_log2 p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.875em;
+	text-align:left;
+}
+
+
+
+/*Log*/
+
+div.log_1_h1 h1{                                                 /*个人博客容器内(一篇日志)*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:2em;
+}
+
+div.log_1_p p{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1em;
+}
+
+div.logs ul li a{                                            /*日志容器内*/
+	font-size:0.875em;
+	font-family:"Times New Roman", Times, serif;
+}
+
+
+
+/*Resume*/
+
+div.resume_h2 h2{
+	font-family:"Courier New", Courier, monospace;
+}
+
+div.resume_table{
+	font-family:"Times New Roman", Times, serif;
+}
+
+
+
+/*Photo*/
+
+.closes{                                                               /*关闭按钮*/
+	font-size:2.3em;
+	font-weight:bold;        
+}
+
+.closes:hover{
+	font-size:2.5em;
+	box-shadow:2px 2px #000033;
+}
+
+.photo_left_arrow{
+	font-size:3em;
+	font-weight:bold;
+}
+
+.photo_right_arrow{
+	font-size:3em;
+	font-weight:bold;
+ }

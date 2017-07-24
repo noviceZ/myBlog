@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.here{
+	background-color:#999;
+}
+
+/*每篇日志都是一个新建的html文档，所以每新建一个html文档写日志就在当篇日志的名字的列表栏里的日志里添加一个当前位置属性，以区分现在所处的位置*/
+.log_open{                                       
+	background-color:#999;
+}

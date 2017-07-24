@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	text-align:center;
+}
+
+
+
+/*Home*/
+
+.home_head_background{
+	margin:0.5em auto;
+	width:75%;
+	height:11em;
+}
+
+div.home_head_background img{
+	width:100%;
+	height:100%;
+}
+
+div nav ul{
+	margin:0.25em auto;
+	overflow:hidden;
+	width:75%;
+}
+
+div nav ul li{
+	border:solid 0.0625em #96C;
+	display:inline;
+	padding:0.2em 7.5%;
+}
+
+.personal{
+	margin:1em auto;
+	width:70%;
+	height:13em;
+}
+
+.personal_left{
+	display:inline;
+	float:left;
+	margin:0.8em 1.5%;
+	padding:0.5em;
+}
+
+div.personal_left img{
+	border-radius:15px;
+}
+
+.personal_right{
+	display:inline;
+	float:left;
+	margin:0.75em 5%;
+	padding:1.5em;
+}
+
+div.personal_right h5{
+	margin-top:-1.2em;
+	margin-left:-15em;
+}
+
+div.personal_right table tr td{
+	padding:0.2em 3em;
+}
+
+.call{                                            
+	margin-top:1.2em; 
+	margin-left:-3em;      
+	height:75%;  
+	display:inline;
+	float:left;                
+}
+
+div.call h5{
+	display:inline;
+	margin-left:-14em;
+}
+
+div.call ul{
+	overflow:hidden;
+	margin-top:2em;
+	margin-left:0.5em;
+}
+
+div.call ul li{
+	display:inline;
+	margin-left:0.5em;
+}
+
+.homeFoot_log{
+	width:70%;
+	margin:0.0625em auto;
+	background-image:url(../images/home_log_background.jpg);
+	background-repeat:no-repeat;
+}
+
+.homeFoot_log1{
+	border:solid 1px #999;
+	margin-bottom:2.5em;
+	padding-top:0.5em;
+	height:9em;
+	overflow:hidden;
+}
+
+.homeFoot_log2{
+	border:solid 1px #999;
+	margin-bottom:2.5em;
+	padding-top:0.5em;
+	height:9em;
+	overflow:hidden;
+}
+
+div.homeFoot_log1 h3{
+	margin-left:2em;
+}
+
+div.homeFoot_log2 h3{
+	margin-left:2em;
+}
+
+div.homeFoot_log1 p{
+	padding-left:0.3125em;
+	padding-top:0.3125em;
+}
+
+div.homeFoot_log2 p{
+	padding-left:0.3125em;
+	padding-top:0.3125em;
+}
+
+
+
+/*Log*/
+
+.log_1_container{                                /*个人博客容器(一篇日志)*/
+	width:75%;
+	margin:auto;
+}
+
+div.log_1_h1 h1{
+	margin-top:1em;
+	margin-bottom:0.75em;
+}
+
+div.log_1_p p{
+	text-align:left;
+	line-height:2.5em;
+}
+
+.logContainer{                                              /*日志页面容器*/
+	width:75%;
+	margin:auto;
+}
+
+.logSearch{                                                  /*日志搜索容器*/
+	width:100%;
+}
+
+input{                                                     /*日志搜索框*/
+	width:30%;
+	height:2.4em;
+	margin-right:-45em;
+	margin-top:1.2em;
+	margin-bottom:0.75em;
+	background-image:url(../images/search_icon.png);
+	background-repeat:no-repeat;
+	background-position:0.5em 0.4em;
+	padding-left:2.5em;
+	border:1px solid #CCC;
+}    
+
+div.logs ul{                                                /*日志容器内*/                                   
+	list-style-type:none;
+	text-align:left;
+}
+
+div.logs ul li{
+	border: 1px solid #99F;
+	padding:0.75em;
+	margin:1px;
+}
+
+
+
+
+/*Resume*/
+
+.resume{                                                        /*个人简历容器*/
+	width:75%;
+	margin:auto;
+	background-image:url(../images/resume_background.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+div.resume_h2{
+	margin-top:2em;
+	margin-bottom:0.5em;
+	padding:1em;
+}
+
+div.resume table{
+	border-collapse:collapse;
+}
+
+div th.head{
+	text-align:left;
+	padding:0.25em 2em;                   
+}
+
+div.resume_table table tr td{
+	padding:0.65em 1.75em;               
+}
+
+div.resume_table table tr td.introduce{
+	text-align:left;
+	line-height:1.75em;
+}
+
+
+
+/*Photo*/
+
+*{
+	//border:1px solid #F00;
+}
+          
+div.thumbnail_container{                                               /*相册容器*/
+	width:75%;
+	margin:auto;
+	margin-top:1em;
+	margin-bottom:1.7em;
+}
+
+div.thumbnail{
+	margin:1em 1em;
+	border:1px solid #FFC;
+	display:inline-block;
+	width:16%;
+	height:11rem;
+	overflow:hidden;
+}
+
+div.thumbnail img{
+	width:100%;
+	margin-top:-2rem;
+	cursor:pointer;
+}
+
+div.thumbnail img:hover{
+	opacity:0.7;
+}
+
+.photo_Tag{                                                                /*打开图片容器*/
+	display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(69,66,66,0.7); 
+}
+
+.img-content {                                                     /*打开图片内容*/
+    margin: 0 auto;
+	margin-bottom:17%;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+	height:auto;
+}
+
+.closes{                                                       /*关闭按钮不显示*/
+	position: absolute;
+    top: 1em;
+    right: 2em;
+    transition: 0.3s;
+	cursor:pointer;
+}
+
+.photo_left_arrow{                                               /*左切换箭头*/
+	position:absolute;
+	top:70%;
+	left:0;
+	cursor:pointer;
+	padding:0.25em 0.25em;
+	border-radius:0 10px 10px 0;
+}
+    
+.photo_right_arrow{                                               /*右切换箭头*/
+	position:absolute;
+	top:70%;
+	right:0;
+	cursor:pointer;
+	padding:0.25em 0.25em;
+	border-radius:10px 0 0 10px;
+}
+
+@keyframes fade{                                              /*定义动画*/
+	from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@-weblit-keyframes fade{
+	from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.img-content{
+	animation-name:fade;
+	animation-duration:1.5s;
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+}
+
+@media only screen and (max-width: 700px){                        /* 小屏幕中图片宽度为 100% */
+    .img-content {
+        width: 100%;
+    }
+}

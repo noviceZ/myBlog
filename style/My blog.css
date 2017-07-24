@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+	text-decoration:none;
+	color:inherit;
+	background-color:transparent;
+}
+
+div p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:3em;
+	font-weight:bold;
+	border:dashed 1px #CCCCCC;
+	border-radius:15px;
+	opacity:0.7;
+	box-shadow:10px 8px 5px 3px #999999;
+	color:#F60;
+}
+
+div#home_background{
+	position:fixed; 
+    top:0;                
+    left:0; 
+    bottom:0; 
+    right:0;              //距离屏幕上左下右距离
+	z-index:-1;
+	overflow:auto;        //超出div范围自动显示滚动条
+}
+
+div img{
+	height:100%; 
+    width:100%; 
+    border:0; 
+}
+
+div#home_absolute{
+	position:absolute;
+	top:15%;
+	left:73%;
+}
+
